@@ -1,0 +1,156 @@
+
+    *{
+        height: 100%;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: 'letra';
+        src: url(letra.otf) format('opentype') ;
+        font-weight: normal;
+        font-style: normal;}
+    
+header{
+    background: linear-gradient(to bottom, rgb(140, 205, 216), rgb(90, 103, 179));
+    min-height: 150px;
+    text-align: center;
+    
+    
+}
+.subtitulos{
+    padding-top: 20px;
+    font-size: 2em;
+    font-family: 'letra';
+
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.pp{
+    padding-bottom: 5px;
+    font-size: 1.1em;
+}
+
+p{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+ul{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+ul > li{
+    list-style: none;
+    padding-top: 5px;
+
+
+}
+
+ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding-left: 6px;
+    letter-spacing: 1px;
+    
+}
+
+ul > li > a:hover{
+    text-decoration: underline 1.5px solid rgba(255, 255, 255, 0.37);
+    
+}
+
+
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 5px;
+
+    min-height: 320px;
+    max-width: 980px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+body{
+    background-color: rgb(182, 185, 248);
+    text-align: center;
+    height: auto;
+    width: 900px;
+    margin: auto;
+    
+}
+
+h1.titulos{ 
+    font-family: 'letra';
+    background: linear-gradient(to right, rgb(118, 189, 247), transparent);
+    font-size: 1.4em;
+
+
+}
+
+h2.titulo{
+    font-family: 'letra';
+    background: linear-gradient(to right, rgb(118, 189, 247), transparent);
+    height: auto;
+    width: auto;
+    right: 5px;
+    font-size: 1.4em;
+    
+}
+iframe{
+    width: 750px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0px -2px 11px -3px rgb(78 71 71);
+   
+
+} 
+
+.ppdois{
+    text-align: left;
+    background-color: rgb(111, 121, 177);
+    border-radius: 3px;
+    font-size: 1em;
+    color: white;
+}
+
+div{
+    padding-top: 18px;
+    margin-top: 18px;
+    background-color: #a1d9f3;
+    padding-left: 10px;
+    border-radius: 6px;
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+.oo { 
+    columns: 2;
+    font-size: 0.8em;
+
+}
+
+.k{
+    color: rgb(238, 255, 0);
+    border-radius: 10px;
+    background-color: black;
+    font-size: 0.8em;
+    box-shadow: none;
+    text-decoration: none;
+    height: auto;
+    margin: 0;
+    width: auto;
+
+    
+}
+
